@@ -1,2 +1,9 @@
-# imman_fake_tweets_detection
-This repository contains a Python-based model for detecting fake tweets, developed using Jupyter Notebook on VsCode. The project applies natural language processing techniques and machine learning algorithms to classify tweets as genuine or fake. It includes data preprocessing, feature extraction, and model training steps.
+# fake_news_detection 
+
+This application gathers tweets, predicts their category between **Real**, **Fake** and then shows a summary.
+
+  *The scraped tweets are converted into a numeric feature vector with TF-IDF vectorization
+
+  *Then, a Support Vector Classifier is applied to predict each category. 
+
+  *Finally, the results are visualized in a graph and a pie chart.
